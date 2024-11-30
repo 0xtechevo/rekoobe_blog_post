@@ -1,0 +1,87 @@
+┌─────────────┬────────────────────────────────────────────────────────────────────────────────────┐
+│ md5         │ 6a4c801c3ac8de5b97c8bbb52360c99f                                                   │
+│ sha1        │ 23e0c1854c1a90e94cd1c427c201ecf879b2fa78                                           │
+│ sha256      │ 307359081e5f025009163dae77f132595e52114888c933d7c740dd22f4f888e2                   │
+│ analysis    │ static                                                                             │
+│ os          │ linux                                                                              │
+│ format      │ elf                                                                                │
+│ arch        │ amd64                                                                              │
+│ path        │ /home/user/projects/rekoobe/rekoobe.elf                                            │
+└─────────────┴────────────────────────────────────────────────────────────────────────────────────┘
+┏━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ATT&CK Tactic        ┃ ATT&CK Technique                                                          ┃
+┡━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ DEFENSE EVASION      │ Obfuscated Files or Information [T1027]                                   │
+│                      │ Obfuscated Files or Information::Indicator Removal from Tools [T1027.005] │
+│ DISCOVERY            │ File and Directory Discovery [T1083]                                      │
+│                      │ System Information Discovery [T1082]                                      │
+│                      │ System Network Configuration Discovery [T1016]                            │
+│ EXECUTION            │ Command and Scripting Interpreter::Unix Shell [T1059.004]                 │
+└──────────────────────┴───────────────────────────────────────────────────────────────────────────┘
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ MAEC Category                                                 ┃ MAEC Value                       ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ malware-category                                              │ launcher                         │
+└───────────────────────────────────────────────────────────────┴──────────────────────────────────┘
+┏━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ MBC Objective        ┃ MBC Behavior                                                               ┃
+┡━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ ANTI-STATIC ANALYSIS │ Executable Code Obfuscation::Argument Obfuscation [B0032.020]              │
+│                      │ Executable Code Obfuscation::Stack Strings [B0032.017]                     │
+│ COMMAND AND CONTROL  │ C2 Communication::Receive Data [B0030.002]                                 │
+│ COMMUNICATION        │ DNS Communication::Resolve [C0011.001]                                     │
+│                      │ Socket Communication::Create TCP Socket [C0001.011]                        │
+│                      │ Socket Communication::Get Socket Status [C0001.012]                        │
+│                      │ Socket Communication::Receive Data [C0001.006]                             │
+│                      │ Socket Communication::Send Data [C0001.007]                                │
+│                      │ Socket Communication::Set Socket Config [C0001.001]                        │
+│ CRYPTOGRAPHY         │ Cryptographic Hash::SHA1 [C0029.002]                                       │
+│                      │ Encrypt Data::AES [C0027.001]                                              │
+│                      │ Encrypt Data::RC4 [C0027.009]                                              │
+│                      │ Generate Pseudo-random Sequence::RC4 PRGA [C0021.004]                      │
+│ DATA                 │ Encode Data::Base64 [C0026.001]                                            │
+│                      │ Encode Data::XOR [C0026.002]                                               │
+│ DEFENSE EVASION      │ Obfuscated Files or Information::Encoding-Standard Algorithm [E1027.m02]   │
+│                      │ Obfuscated Files or Information::Encryption-Standard Algorithm [E1027.m05] │
+│ DISCOVERY            │ File and Directory Discovery [E1083]                                       │
+│                      │ System Information Discovery [E1082]                                       │
+│ FILE SYSTEM          │ Create Directory [C0046]                                                   │
+│                      │ Delete File [C0047]                                                        │
+│                      │ Move File [C0063]                                                          │
+│                      │ Read File [C0051]                                                          │
+│                      │ Set File Attributes [C0050]                                                │
+│                      │ Writes File [C0052]                                                        │
+│ IMPACT               │ Remote Access::Reverse Shell [B0022.001]                                   │
+│ PROCESS              │ Create Process [C0017]                                                     │
+│                      │ Create Thread [C0038]                                                      │
+└──────────────────────┴────────────────────────────────────────────────────────────────────────────┘
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Capability                                                 ┃ Namespace                                    ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ contain obfuscated stackstrings (6 matches)                │ anti-analysis/obfuscation/string/stackstring │
+│ receive data (4 matches)                                   │ communication                                │
+│ create reverse shell on Linux                              │ communication/c2/shell                       │
+│ resolve DNS (2 matches)                                    │ communication/dns                            │
+│ get socket status (9 matches)                              │ communication/socket                         │
+│ set socket configuration (2 matches)                       │ communication/socket                         │
+│ send data on socket (3 matches)                            │ communication/socket/send                    │
+│ create TCP socket (2 matches)                              │ communication/socket/tcp                     │
+│ encode data using Base64                                   │ data-manipulation/encoding/base64            │
+│ encode data using XOR (9 matches)                          │ data-manipulation/encoding/xor               │
+│ encrypt data using AES (3 matches)                         │ data-manipulation/encryption/aes             │
+│ encrypt data using RC4 PRGA                                │ data-manipulation/encryption/rc4             │
+│ hash data using SHA1                                       │ data-manipulation/hashing/sha1               │
+│ change file permission on Linux                            │ host-interaction/file-system                 │
+│ create directory                                           │ host-interaction/file-system/create          │
+│ delete file (3 matches)                                    │ host-interaction/file-system/delete          │
+│ enumerate files recursively (2 matches)                    │ host-interaction/file-system/files/list      │
+│ move file                                                  │ host-interaction/file-system/move            │
+│ read file on Linux (5 matches)                             │ host-interaction/file-system/read            │
+│ write file on Linux (4 matches)                            │ host-interaction/file-system/write           │
+│ communicate with kernel module via Netlink socket on Linux │ host-interaction/kernel                      │
+│ get networking interfaces                                  │ host-interaction/network/interface           │
+│ get hostname                                               │ host-interaction/os/hostname                 │
+│ create process on Linux (5 matches)                        │ host-interaction/process/create              │
+│ create thread (6 matches)                                  │ host-interaction/thread/create               │
+└────────────────────────────────────────────────────────────┴──────────────────────────────────────────────┘
+

